@@ -21,7 +21,3 @@ SINSUM_PROJECT:
     - Для сборки с типом данных double, используй:
         make ARRAY_TYPE=double
         ./double_version
-
--> Сборка с CMake:
-
-    ...
