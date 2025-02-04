@@ -1,27 +1,30 @@
-SINSUM_PROJECT:
+SINSUM_PROJECT (CMake-version):
 
-Этот проект вычисляет сумму значений синуса для одного периода на 10⁷ элементов. 
+Этот проект вычисляет сумму значений синуса для одного периода на 10⁷ элементов с помощью сборщика cmake. 
 Он поддерживает два типа данных для массива: float и double. 
 Выбор типа массива производится на этапе сборки.
 
-Проект имеет две версии:
+-> Сборка с CMake
 
-    makefile_version — [сборка с помощью Makefile]
-    cmake_version — [сборка с помощью CMake]
+    1.Перейди в папку cmake_version:
+    cd cmake_version
 
--> Сборка с Makefile
+    2.Сборка с типом данных float (по умолчанию): В этой версии сборки float используется по умолчанию:
+    cmake -B build
+    cmake --build build
+    ./build/sin_sum
 
-    - Перейди в папку makefile_version:
-        cd makefile_version
+    3.Сборка с типом данных double: Чтобы собрать проект с double, передай флаг -DUSE_DOUBLE=ON:`
+    cmake -B build -DUSE_DOUBLE=ON
+    cmake --build build
+    ./build/sin_sum
 
-    - Для сборки с типом данных float (по умолчанию) просто используй команду:
-        make ARRAY_TYPE=float
-        ./float_version
+-> Результаты
 
-    - Для сборки с типом данных double, используй:
-        make ARRAY_TYPE=double
-        ./double_version
+    Примерные результаты вычислений для каждого типа данных:
+    Тип массива	                             Значение суммы
+      float	                                   0.291951
+      double	                               4.89582e-11
 
--> Сборка с CMake:
-
-    ...
+Примечание: Результаты могут немного отличаться в зависимости от используемой платформы и компилятора.
+(могут быть nvc++, g++ и т.д.)
