@@ -1,8 +1,0 @@
-2025-04-02 00:34:55,716 - ERROR - Failed to close window: OpenCV(4.11.0) /io/opencv/modules/highgui/src/window_QT.cpp:578: error: (-27:Null pointer) NULL guiReceiver (please create a window) in function 'cvDestroyWindow'
-
-2025-04-02 00:44:31,873 - ERROR - Failed to close window: OpenCV(4.11.0) /io/opencv/modules/highgui/src/window_QT.cpp:578: error: (-27:Null pointer) NULL guiReceiver (please create a window) in function 'cvDestroyWindow'
-
-2025-04-02 00:44:45,941 - ERROR - Failed to close window: OpenCV(4.11.0) /io/opencv/modules/highgui/src/window_QT.cpp:578: error: (-27:Null pointer) NULL guiReceiver (please create a window) in function 'cvDestroyWindow'
-
-2025-04-02 00:52:20,705 - ERROR - Failed to close window: OpenCV(4.11.0) /io/opencv/modules/highgui/src/window_QT.cpp:578: error: (-27:Null pointer) NULL guiReceiver (please create a window) in function 'cvDestroyWindow'
-
