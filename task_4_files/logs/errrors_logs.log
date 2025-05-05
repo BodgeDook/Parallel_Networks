@@ -6,3 +6,9 @@
 
 2025-04-02 00:52:20,705 - ERROR - Failed to close window: OpenCV(4.11.0) /io/opencv/modules/highgui/src/window_QT.cpp:578: error: (-27:Null pointer) NULL guiReceiver (please create a window) in function 'cvDestroyWindow'
 
+2025-05-05 23:56:45,011 - CRITICAL - Critical error: name 'WindowImage' is not defined
+Traceback (most recent call last):
+  File "/home/bodgedook/my_venvs/python-notebooks/task-4-parallelki/main.py", line 148, in main
+    window = WindowImage(args.frequency)
+             ^^^^^^^^^^^
+NameError: name 'WindowImage' is not defined. Did you mean: 'WindowImag'?
