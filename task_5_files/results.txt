@@ -1,0 +1,2 @@
+    Mode      Processing time
+single mode    6.32 seconds
