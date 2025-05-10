@@ -1,2 +1,6 @@
-    Mode      Processing time
-single mode    6.32 seconds
+  Mode    Processing time
+ single    59.42 seconds (optim)
+1 (multi)  64.92 seconds
+2 (multi) 148.81 seconds
+3 (multi) 326.92 seconds
+4 (multi) dead
