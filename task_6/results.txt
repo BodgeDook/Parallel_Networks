@@ -24,16 +24,24 @@ CPU (multicore) Results:
 
 1. for size = 128:
 
-Time: 52.359920 sec (?)
+Time: 1.529123 sec
 Iterations: 30075
 Error value: 0.000001
 
 2. for size = 256:
 
-Time: 181.642482 sec (?)
+Time: 7.078037 sec
 Iterations: 102885
 Error value: 0.000001
 
 3. for size = 512:
 
-...
+Time: 38.226787 sec
+Iterations: 339599
+Error value: 0.000001
+
+4. for size = 1024:
+
+Time: 194.441180 sec
+Iterations: 1000000
+Error value: 0.000001
