@@ -1,0 +1,25 @@
+Best GPU Realization Results:
+
+1. for size = 128:
+
+Time:       1.13318 sec
+Iterations: 30081
+Final error:9.97879e-07
+
+2. for size = 256:
+
+Time:       3.87233 sec
+Iterations: 102901
+Final error:9.98726e-07
+
+3. for size = 512:
+
+Time:       14.2407 sec
+Iterations: 339601
+Final error:9.99949e-07
+
+4. for size = 1024:
+
+Time:       83.2254 sec
+Iterations: 1000000
+Final error:1.36941e-06

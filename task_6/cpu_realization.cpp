@@ -124,7 +124,7 @@ int main(int argc, char* argv[]) {
     });
 
     // #pragma acc update self(A[0:size*size])
-    print_grid(A.data(), size);
+    // print_grid(A.data(), size);
 
     std::cout << std::fixed << std::setprecision(6)
               << "Time: " << elapsed_seconds << " sec\n"
