@@ -1,0 +1,17 @@
+            Best cuBLAS realization:
+
+1. for size = 128:
+
+Time: 0.62128 s | Iters: 30501 | Err: 8.77535e-07
+
+2. for size = 256:
+
+Time: 2.20002 s | Iters: 103001 | Err: 9.91175e-07
+
+3. for size = 512:
+
+Time: 8.5139 s | Iters: 340001 | Err: 9.92418e-07
+
+4. for size = 1024:
+
+Time: 66.033 s | Iters: 1000000 | Err: 1.37251e-06
