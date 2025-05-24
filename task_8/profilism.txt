@@ -1,0 +1,35 @@
+1. Standart version:
+
+Iterations:   50
+Final error:  0.181481
+Elapsed time: 0.00402182 
+Generating '/tmp/nsys-report-2c54.qdstrm'
+[1/7] [========================100%] report1.nsys-rep
+[2/7] [========================100%] report1.sqlite
+[3/7] Executing 'nvtx_sum' stats report
+SKIPPED: /home/d.zlobin1/parallelki_all_tasks/task_8/report1.sqlite does not contain NV Tools Extension (NVTX) data.
+[4/7] Executing 'cuda_api_sum' stats report
+
+2. Second version:
+
+Iterations:   50
+Final error:  0.181481
+Elapsed time: 0.00396356 s
+Generating '/tmp/nsys-report-9968.qdstrm'
+[1/7] [========================100%] report1.nsys-rep
+[2/7] [========================100%] report1.sqlite
+[3/7] Executing 'nvtx_sum' stats report
+SKIPPED: /home/d.zlobin1/parallelki_all_tasks/task_8/report1.sqlite does not contain NV Tools Extension (NVTX) data.
+[4/7] Executing 'cuda_api_sum' stats report
+
+3. Third version:
+
+Iterations:   50
+Final error:  10
+Elapsed time: 0.00183969 s
+Generating '/tmp/nsys-report-6791.qdstrm'
+[1/7] [========================100%] report1.nsys-rep
+[2/7] [========================100%] report1.sqlite
+[3/7] Executing 'nvtx_sum' stats report
+SKIPPED: /home/d.zlobin1/parallelki_all_tasks/task_8/report1.sqlite does not contain NV Tools Extension (NVTX) data.
+[4/7] Executing 'cuda_api_sum' stats report
