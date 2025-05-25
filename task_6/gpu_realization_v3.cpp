@@ -63,8 +63,8 @@ void copy_grid(double* grid, const double* new_grid, size_t size) {
     }
 }
 
-void deallocate(double* grid, double* new_grid) {
-    #pragma acc exit data delete(grid[0:0], new_grid[0:0])  
+void deallocate(double* grid, double* new_grid, int size) {
+    #pragma acc exit data delete(grid[0:size*size], new_grid[0:size*size])  
     free(grid);                                             
     free(new_grid);                                        
 }
@@ -143,7 +143,7 @@ int main(int argc, char* argv[]) {
     // #pragma acc update self(grid[0:size*size])
     // print_grid(grid, size);
 
-    deallocate(grid, new_grid);
+    deallocate(grid, new_grid, size);
 
     return 0;
 }
